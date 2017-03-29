@@ -1,0 +1,171 @@
+.Estilo1 {
+	/* Se presenta solo cuando sale la pantalla inicio.asp */
+	color       : #FFA343;
+	font-weight : bold;
+	font-size   : 120%;
+	text-align  : Center;
+}
+
+.Estilo2 {
+	/* para la linea que se encuentra luego del degradado */
+	border     : 1px solid #666666;
+	width      : 100%;
+	padding    : 0%;
+	
+ }
+
+.Estilo3 {
+	/* se utilizará para las pantalla de ingreso de datos*/
+	color       : #990000;
+	text-align  : left;
+	font-family : Times New Roman;
+	font-size   : 86%;
+	font-weight : bold;
+	width		: 316%;
+}
+.Estilo4 {
+	/* para el texto que se encuentra en la parte superios */
+	color      : #000000;
+	font-weight: bold;
+	font-size   : 110%;
+ }
+
+.Estilo5 {
+	/* se utilizará para las pantalla de ingreso de datos*/
+	color       : #990000;
+	text-align  : right;
+	font-family : Times New Roman;
+	font-size   : 86%;
+	font-weight : bold;
+	width		: 316%;
+}
+
+.gradient
+{
+	color            : #990000 ;
+    background-color : #FFFFFF;
+    background       : #FFFFFF -webkit-gradient(linear, left top, left bottom, from(#63B1D9), to(#FFFFFF)) no-repeat;
+    background       : #FFFFFF -moz-linear-gradient(top, #63B1D9, #FFFFFF) no-repeat;
+    filter           : progid:DXImageTransform.Microsoft.gradient(startColorstr=#63B1D9, endColorstr=#FFFFFF) no-repeat;
+	border-collapse  : collapse;
+	cellspacing		 : 0;
+	cellpadding		 : 0;
+	border			 : 0;
+}
+
+.cuerpo {
+	background-image: url(../imagenes/paginapsc.jpg);
+	margin-top  : 0cm;
+	margin-left : 0cm;
+}
+
+.titulo {
+	/* Los titulos de la parte superior de cada pantalla*/
+	color       : #990000 ;
+	font-weight : bold;
+	text-align  : center;
+	font-family : Times New Roman;
+	font-size   : 18px;
+	width		: 100%;
+
+ }
+ 
+.subtitulo {
+	/* Los titulos de la parte superior de cada pantalla*/
+	color       : #000000 ;
+	font-weight : bold;
+	text-align  : center;
+	font-family : Times New Roman;
+	font-size   : 15px;
+	width		: 100%;
+
+ }
+ 
+.leyenda {
+	text-align     : justify;
+	line-height    : 100%;
+	margin		   : 0;
+	font-family    : Times New Roman;
+	letter-spacing : 1;
+	word-spacing   : 0;
+	font-size      : 16px;
+	font-weight    : bold;
+	color          : #000000 ;
+	
+}
+.rotulos {
+	text-align	: center;
+	font-weight	: bold;
+	font-size	: 12px;
+	font-family : Arial, Helvetica, sans-serif;
+	background-color : #CCCCCC;
+/*	text-shadow: 5px 5px 10px black;*/
+}
+.presental {
+	text-align  : left;
+	font-size	: 11px;
+	font-family : Arial, Helvetica, sans-serif;
+
+}
+
+.presentar {
+	text-align  : right;
+	font-size	: 11px;
+	font-family : Arial, Helvetica, sans-serif;
+
+}
+
+.presentac {
+	text-align  : center;
+	font-size	: 12px;
+	font-family : Arial, Helvetica, sans-serif;
+
+}
+
+.block {
+	width: auto;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	background-color: #990000;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.fecha {
+	width: 20%;
+	height: 50%;
+	word-spacing: 0;
+	margin: 0;
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+}
+.button-black{
+	border: none;
+	background: #000000;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+}
+.presenta1 {
+	align : left;
+	color : #990000;
+	font-size :13;
+	font-weight : bold;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.presenta2 {
+	align : left;
+	font-size :12;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
